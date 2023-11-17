@@ -187,6 +187,9 @@ body {
 .service {
   padding: 96px 165px;
   background: #111827; }
+  @media (max-width: 576px) {
+    .service {
+      padding: 96px 0; } }
   .service__my {
     color: #f3f4f6;
     font-size: 42px;
@@ -200,9 +203,88 @@ body {
     font-size: 16px;
     font-weight: 400;
     line-height: 27px;
-    margin-bottom: 56px; }
-  .service col-icons {
+    margin-bottom: 56px;
+    max-width: 461px; }
+  .service__col {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px; }
+    @media (max-width: 992px) {
+      .service__col {
+        grid-template-columns: 1fr;
+        justify-items: center; } }
+    @media (max-width: 576px) {
+      .service__col {
+        grid-template-columns: 1fr;
+        justify-items: center; } }
+  .service__col-digital {
+    padding: 32px 32px;
+    flex-shrink: 0;
+    max-width: 350px;
+    border-radius: 12px;
+    background: #020617; }
+  .service__digital-img {
     display: flex;
-    flex-direction: column; }
+    justify-content: center;
+    margin-bottom: 32px; }
+  .service__digital-info {
+    color: #f3f4f6;
+    text-align: center;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 41px;
+    margin-bottom: 16px; }
+  .service__digital-text {
+    color: #6b7280;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27px; }
+  .service__col-web {
+    padding: 32px 32px;
+    max-width: 350px;
+    flex-shrink: 0;
+    border-radius: 12px;
+    background: #020617; }
+  .service__web-img {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 32px; }
+  .service__web-info {
+    color: #f3f4f6;
+    text-align: center;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 41px;
+    margin-bottom: 16px; }
+  .service__web-text {
+    color: #6b7280;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27px; }
+  .service__col-creative {
+    padding: 32px 32px;
+    max-width: 350px;
+    flex-shrink: 0;
+    border-radius: 12px;
+    background: #020617; }
+  .service__creative-img {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 32px; }
+  .service__creative-info {
+    color: #f3f4f6;
+    text-align: center;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 41px;
+    margin-bottom: 16px; }
+  .service__creative-text {
+    color: #6b7280;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27px; }
 
 /*# sourceMappingURL=style.css.map */

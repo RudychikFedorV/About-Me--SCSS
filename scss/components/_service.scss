@@ -1,6 +1,9 @@
 .service {
   padding: 96px 165px;
   background: $section-bg;
+  @include mobile {
+    padding: 96px 0;
+  }
 
   &__my {
     color: #f3f4f6;
@@ -19,10 +22,113 @@
     font-weight: 400;
     line-height: 27px;
     margin-bottom: 56px;
+    max-width: 461px;
   }
 
-  col-icons {
+  &__col {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+    @include tablet {
+      grid-template-columns: 1fr;
+      justify-items: center;
+    }
+    @include mobile {
+      grid-template-columns: 1fr;
+      justify-items: center;
+    }
+  }
+
+  &__col-digital {
+    padding: 32px 32px;
+    flex-shrink: 0;
+    max-width: 350px;
+    border-radius: 12px;
+    background: #020617;
+  }
+
+  &__digital-img {
     display: flex;
-    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 32px;
+  }
+
+  &__digital-info {
+    color: #f3f4f6;
+    text-align: center;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 41px;
+    margin-bottom: 16px;
+  }
+
+  &__digital-text {
+    color: #6b7280;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27px;
+  }
+
+  &__col-web {
+    padding: 32px 32px;
+    max-width: 350px;
+    flex-shrink: 0;
+    border-radius: 12px;
+    background: #020617;
+  }
+
+  &__web-img {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 32px;
+  }
+
+  &__web-info {
+    color: #f3f4f6;
+    text-align: center;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 41px;
+    margin-bottom: 16px;
+  }
+
+  &__web-text {
+    color: #6b7280;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27px;
+  }
+
+  &__col-creative {
+    padding: 32px 32px;
+    max-width: 350px;
+    flex-shrink: 0;
+    border-radius: 12px;
+    background: #020617;
+  }
+
+  &__creative-img {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 32px;
+  }
+
+  &__creative-info {
+    color: #f3f4f6;
+    text-align: center;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 41px;
+    margin-bottom: 16px;
+  }
+
+  &__creative-text {
+    color: #6b7280;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27px;
   }
 }
