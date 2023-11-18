@@ -23,6 +23,7 @@
     position: relative;
     max-width: 475px;
     flex-shrink: 0;
+    z-index: -2;
     @include tablet {
       flex-shrink: inherit;
     }
