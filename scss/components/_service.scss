@@ -7,18 +7,19 @@
 
   &__my {
     color: #f3f4f6;
-    font-size: 42px;
+    font-size: 42rem;
     font-weight: 700;
     line-height: 64px;
     margin-bottom: 24px;
     span {
       color: $primary-color;
+      font-size: 42rem;
     }
   }
 
   &__text {
     color: #6b7280;
-    font-size: 16px;
+    font-size: 16rem;
     font-weight: 400;
     line-height: 27px;
     margin-bottom: 56px;
@@ -48,7 +49,7 @@
   &__digital-info {
     color: #f3f4f6;
     text-align: center;
-    font-size: 26px;
+    font-size: 26rem;
     font-weight: 700;
     line-height: 41px;
     margin-bottom: 16px;
@@ -57,7 +58,7 @@
   &__digital-text {
     color: #6b7280;
     text-align: center;
-    font-size: 16px;
+    font-size: 16rem;
     font-weight: 400;
     line-height: 27px;
   }
@@ -71,7 +72,7 @@
   &__web-info {
     color: #f3f4f6;
     text-align: center;
-    font-size: 26px;
+    font-size: 26rem;
     font-weight: 700;
     line-height: 41px;
     margin-bottom: 16px;
@@ -80,7 +81,7 @@
   &__web-text {
     color: #6b7280;
     text-align: center;
-    font-size: 16px;
+    font-size: 16rem;
     font-weight: 400;
     line-height: 27px;
   }
@@ -94,7 +95,7 @@
   &__creative-info {
     color: #f3f4f6;
     text-align: center;
-    font-size: 26px;
+    font-size: 26rem;
     font-weight: 700;
     line-height: 41px;
     margin-bottom: 16px;
@@ -103,7 +104,7 @@
   &__creative-text {
     color: #6b7280;
     text-align: center;
-    font-size: 16px;
+    font-size: 16rem;
     font-weight: 400;
     line-height: 27px;
   }

@@ -10,12 +10,13 @@
 
 	&__logo {
 		color: #FFF;
-		font-size: 24px;
+		font-size: 24rem;
 		font-weight: 700;
 		display: flex;
 
 		span {
 			color: $primary-color;
+			font-size: 24rem;
 		}
 	}
 
@@ -53,7 +54,7 @@
 
 	&__a {
 		color: $header-link;
-		font-size: 16px;
+		font-size: 16rem;
 		font-weight: 400;
 		text-transform: uppercase;
 		transition: $transition;
