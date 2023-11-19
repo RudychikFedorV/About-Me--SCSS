@@ -434,6 +434,9 @@ body {
 
 .contact {
   padding: 96px 0; }
+  @media (max-width: 576px) {
+    .contact {
+      padding: 60px 0; } }
   .contact__title {
     color: #f3f4f6;
     text-align: center;
@@ -456,6 +459,14 @@ body {
     display: flex;
     gap: 223px;
     max-width: 1110px; }
+    @media (max-width: 992px) {
+      .contact__form {
+        flex-direction: column;
+        gap: 60px; } }
+    @media (max-width: 576px) {
+      .contact__form {
+        flex-direction: column;
+        gap: 60px; } }
   .contact .t_form {
     color: #f3f4f6;
     font-size: 16px;
@@ -469,23 +480,59 @@ body {
   .contact__website {
     margin-bottom: 0; }
   .contact__form-2 {
-    max-width: 540px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 32px; }
-  .contact input[type="text"],
-  .contact select,
-  .contact textarea {
-    width: 100%;
-    padding: 12px;
-    border-radius: 5px;
-    resize: vertical; }
+    width: 50%; }
+    @media (max-width: 992px) {
+      .contact__form-2 {
+        width: 75%; } }
+    @media (max-width: 576px) {
+      .contact__form-2 {
+        width: 100%; } }
   .contact__name-1 {
     max-width: 350px;
-    flex-shrink: 0; }
-    .contact__name-1__name-2 {
-      max-width: 540px;
-      flex-shrink: 0; }
+    flex-shrink: 0;
+    margin-bottom: 32px; }
+  .contact__name-2 {
+    max-width: 540px;
+    max-height: 166px;
+    flex-shrink: 0;
+    margin-bottom: 32px; }
+  .contact input[type="text"] {
+    width: 100%;
+    padding: 12px 0 12px 18px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: vertical; }
+  .contact input[type="subject"],
+  .contact textarea {
+    width: 100%;
+    padding: 12px 0 115px 18px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: vertical; }
+
+.footer {
+  padding: 56px 0; }
+  .footer__title {
+    color: #fff;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 24px; }
+  .footer__info {
+    max-width: 685px;
+    color: #9ca3af;
+    text-align: center;
+    margin-inline: auto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27px;
+    margin-bottom: 56px; }
+  .footer__icons-row {
+    display: flex;
+    justify-content: center;
+    gap: 16px; }
+  .footer__icons-row:hover {
+    color: #EAB308; }
 
 /*# sourceMappingURL=style.css.map */
