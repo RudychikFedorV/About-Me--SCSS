@@ -1,7 +1,7 @@
 .contact {
-  padding: 96px 0;
+  padding: 96rem 0;
   @include mobile {
-    padding: 60px 0;
+    padding: 60rem 0;
   }
 
   &__title {
@@ -9,8 +9,8 @@
     text-align: center;
     font-size: 42rem;
     font-weight: 700;
-    line-height: 64px;
-    margin-bottom: 24px;
+    line-height: 64rem;
+    margin-bottom: 24rem;
     span {
       color: $primary-color;
       font-size: 42rem;
@@ -18,27 +18,27 @@
   }
 
   &__info {
-    max-width: 685px;
+    max-width: 685rem;
     color: #9ca3af;
     text-align: center;
     margin-inline: auto;
     font-size: 16rem;
     font-weight: 400;
-    line-height: 27px;
-    margin-bottom: 56px;
+    line-height: 27rem;
+    margin-bottom: 56rem;
   }
 
   &__form {
     display: flex;
-    gap: 223px;
-    max-width: 1110px;
+    gap: 223rem;
+    max-width: 1110rem;
     @include tablet {
       flex-direction: column;
-      gap: 60px;
+      gap: 60rem;
     }
     @include mobile {
       flex-direction: column;
-      gap: 60px;
+      gap: 60rem;
     }
   }
 
@@ -46,8 +46,8 @@
     color: #f3f4f6;
     font-size: 16rem;
     font-weight: 400;
-    line-height: 41px;
-    margin-bottom: 16px;
+    line-height: 41rem;
+    margin-bottom: 16rem;
     span {
       color: $primary-color;
       font-size: 16rem;
@@ -55,7 +55,7 @@
   }
 
   &__form-1 {
-    max-width: 347px;
+    max-width: 347rem;
   }
 
   &__website {
@@ -73,23 +73,23 @@
   }
 
   &__name-1 {
-    max-width: 350px;
+    max-width: 350rem;
     flex-shrink: 0;
-    margin-bottom: 32px;
+    margin-bottom: 32rem;
   }
 
   &__name-2 {
-    max-width: 540px;
-    min-height: 166px;
+    max-width: 540rem;
+    min-height: 166rem;
     flex-shrink: 0;
-    margin-bottom: 32px;
+    margin-bottom: 32rem;
   }
 
   input[type="text"] {
     width: 100%;
-    padding: 12px 0 12px 18px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
+    padding: 12rem 0 12rem 18rem;
+    border: 1rem solid #ccc;
+    border-radius: 5rem;
     resize: vertical;
     font-size: 16rem;
   }
@@ -97,9 +97,9 @@
   input[type="subject"],
   textarea {
     width: 100%;
-    padding: 12px 0 115px 18px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
+    padding: 12rem 0 115rem 18rem;
+    border: 1rem solid #ccc;
+    border-radius: 5rem;
     resize: vertical;
     font-size: 16rem;
   }

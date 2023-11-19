@@ -1,16 +1,16 @@
 .service {
-  padding: 96px 0;
+  padding: 96rem 0;
   background: $section-bg;
   @include mobile {
-    padding: 60px 0;
+    padding: 60rem 0;
   }
 
   &__my {
     color: #f3f4f6;
     font-size: 42rem;
     font-weight: 700;
-    line-height: 64px;
-    margin-bottom: 24px;
+    line-height: 64rem;
+    margin-bottom: 24rem;
     span {
       color: $primary-color;
       font-size: 42rem;
@@ -21,9 +21,9 @@
     color: #6b7280;
     font-size: 16rem;
     font-weight: 400;
-    line-height: 27px;
-    margin-bottom: 56px;
-    max-width: 461px;
+    line-height: 27rem;
+    margin-bottom: 56rem;
+    max-width: 461rem;
   }
  
   &__col {
@@ -43,7 +43,7 @@
   &__digital-img {
     display: flex;
     justify-content: center;
-    margin-bottom: 32px;
+    margin-bottom: 32rem;
   }
 
   &__digital-info {
@@ -51,8 +51,8 @@
     text-align: center;
     font-size: 26rem;
     font-weight: 700;
-    line-height: 41px;
-    margin-bottom: 16px;
+    line-height: 41rem;
+    margin-bottom: 16rem;
   }
 
   &__digital-text {
@@ -60,13 +60,13 @@
     text-align: center;
     font-size: 16rem;
     font-weight: 400;
-    line-height: 27px;
+    line-height: 27rem;
   }
 
   &__web-img {
     display: flex;
     justify-content: center;
-    margin-bottom: 32px;
+    margin-bottom: 32rem;
   }
 
   &__web-info {
@@ -74,8 +74,8 @@
     text-align: center;
     font-size: 26rem;
     font-weight: 700;
-    line-height: 41px;
-    margin-bottom: 16px;
+    line-height: 41rem;
+    margin-bottom: 16rem;
   }
 
   &__web-text {
@@ -83,13 +83,13 @@
     text-align: center;
     font-size: 16rem;
     font-weight: 400;
-    line-height: 27px;
+    line-height: 27rem;
   }
 
   &__creative-img {
     display: flex;
     justify-content: center;
-    margin-bottom: 32px;
+    margin-bottom: 32rem;
   }
 
   &__creative-info {
@@ -97,8 +97,8 @@
     text-align: center;
     font-size: 26rem;
     font-weight: 700;
-    line-height: 41px;
-    margin-bottom: 16px;
+    line-height: 41rem;
+    margin-bottom: 16rem;
   }
 
   &__creative-text {
@@ -106,6 +106,6 @@
     text-align: center;
     font-size: 16rem;
     font-weight: 400;
-    line-height: 27px;
+    line-height: 27rem;
   }
 }

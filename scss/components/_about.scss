@@ -1,15 +1,15 @@
 .about {
-  padding: 96px 0;
-  padding-left: 36px;
+  padding: 96rem 0;
+  padding-left: 36rem;
   @include mobile {
-    padding: 60px 20px;
+    padding: 60rem 20px;
   }
 
   .container {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 89px;
+    gap: 89rem;
     @include tablet {
       flex-direction: column;
     }
@@ -21,7 +21,7 @@
   &__img {
     display: flex;
     position: relative;
-    max-width: 475px;
+    max-width: 475rem;
     flex-shrink: 0;
     z-index: -2;
     @include tablet {
@@ -32,10 +32,10 @@
     position: absolute;
     width: calc(100% + 10px);
     height: calc(100% + 10px);
-    right: 12px;
-    bottom: -22px;
-    border-radius: 24px;
-    border: 16px solid #eab308;
+    right: 12rem;
+    bottom: -22rem;
+    border-radius: 24rem;
+    border: 16rem solid #eab308;
     z-index: -1;
   }
 
@@ -47,8 +47,8 @@
     color: #f3f4f6;
     font-size: 42rem;
     font-weight: 700;
-    line-height: 64px;
-    margin-bottom: 32px;
+    line-height: 64rem;
+    margin-bottom: 32rem;
     span {
       color: $primary-color;
       font-size: 42rem;
@@ -59,15 +59,15 @@
     color: #6b7280;
     font-size: 16rem;
     font-weight: 400;
-    line-height: 27px;
-    margin-bottom: 18px;
+    line-height: 27rem;
+    margin-bottom: 18rem;
   }
 
   &__text-2 {
     color: #6b7280;
     font-size: 16rem;
     font-weight: 400;
-    line-height: 27px;
-    margin-bottom: 40px;
+    line-height: 27rem;
+    margin-bottom: 40rem;
   }
 }

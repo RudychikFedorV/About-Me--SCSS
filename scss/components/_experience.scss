@@ -1,16 +1,16 @@
 .experience {
-  padding: 85px 0;
+  padding: 85rem 0;
   background: $section-bg;
   @include mobile {
-    padding: 60px 0;
+    padding: 60rem 0;
   }
 
   &__title {
     color: #f3f4f6;
     font-size: 42rem;
     font-weight: 700;
-    line-height: 64px;
-    margin-bottom: 24px;
+    line-height: 64rem;
+    margin-bottom: 24rem;
     span {
       color: $primary-color;
       font-size: 42rem;
@@ -18,18 +18,18 @@
   }
 
   &__info {
-    max-width: 730px;
+    max-width: 730rem;
     color: #9ca3af;
     font-size: 16rem;
     font-weight: 400;
-    line-height: 27px;
-    margin-bottom: 80px;
+    line-height: 27rem;
+    margin-bottom: 80rem;
   }
 
   &__col {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    gap: 30px;
+    gap: 30rem;
     @include tablet {
       grid-template-columns: 1fr;
       justify-items: center;
@@ -43,27 +43,27 @@
     color: #d1d5db;
     font-size: 20rem;
     font-weight: 400;
-    line-height: 27px;
+    line-height: 27rem;
   }
   .t_title {
     color: $primary-color;
     font-size: 26rem;
     font-weight: 700;
-    line-height: 41px;
+    line-height: 41rem;
   }
 
   .t_someText {
     color: #d1d5db;
     font-size: 16rem;
     font-weight: 700;
-    line-height: 27px;
-    margin-bottom: 16px;
+    line-height: 27rem;
+    margin-bottom: 16rem;
   }
 
   .t_info {
     color: #6b7280;
     font-size: 16rem;
     font-weight: 400;
-    line-height: 27px;
+    line-height: 27rem;
   }
 }
